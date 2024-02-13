@@ -14,13 +14,13 @@ body {
   margin-top: -9px;
   right: 0;
 }
-
-.PBR {
+.PBR2{
   position: fixed;
-  width: 500px;
-  height: 500px;
-  margin-left: 211px;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 70vw;
 }
 .line {
   position: fixed;
@@ -43,13 +43,15 @@ body {
   margin-top: 70vh;
 }
 .slogan {
-  height: 0px;
-  display: block;
-  margin-top: 75vh;
-  width: 940px;
+  margin-top: 400px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
   font-size: 30px;
   text-align: center;
-  position: fixed;
+  
   font-style: italic;
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
 }
