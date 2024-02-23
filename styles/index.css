@@ -97,9 +97,10 @@ body {
     overflow-y: scroll;
   }
 
-  .PBR {
+  .PBR2 {
     position: fixed;
-    margin-left: -65px;
+    width: 99vw;
+    margin-left: -9px;
     margin-top: -50px;
   }
 
@@ -108,7 +109,7 @@ body {
     width: 101vw;
     margin-left: -8px;
     margin-top: 550px;
-    height: 122vh;
+    height: 120vh;
     font-size: 40px;
     right: 0;
   }
@@ -142,6 +143,24 @@ body {
     right: none;
     font-family: "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
   }
+  .button{
+    width: 99vw;
+    right: none;
+    margin-right: 9px;
+  }
+  .app {
+    margin-top: 825px;
+  }
+  .mis {
+    margin-top: 925px;
+  }
+  .dep {
+    margin-top: 1025px;
+  }
+  .staff {
+    margin-top: 1125px;
+  }
+
 }
 
 /* Limmit orentation */
