@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./../../js/app/main.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Black Rose</title>
+    <link
+      rel="shortcut icon"
+      href="./files/Project Black Rose Logos (3).png"
+      type="image/x-icon"
+    />
   </head>
   <body>
-     
-    <div class="PBR">
-      <div class="PBR2">
-        <img src="files/Project Black Rose Logos (3).png" />
-        <div class="slogan">"Where Stories Blossom Beyond Pixels"</div>
+    <div class="top">
+      <div class="PBR">PROJECT BLACK ROSE&ensp; COMMUNITY ROLEPLAY</div>
+      <div class="TM">TM</div>
+      <div class="logo">
+        <img src="../../files/PBR_WHITE_NO_TXT.png" />
+      </div>
+      <div class="line"></div>
+    </div>
+
+    <div class="tabs">
+      <div class="APPLICATION">
+        <button
+          class="tablinks"
+          id="defaultOpen"
+          onclick="tabUpdate(event, 'app')"
+        >
+          APPLICATION
+        </button>
+      </div>
+      <div class="MISSION">
+        <button class="tablinks" onclick="tabUpdate(event, 'mis')">
+          MISSION & VALUES
+        </button>
+      </div>
+      <div class="DEPARTMENTS">
+        <button class="tablinks" onclick="tabUpdate(event, 'dep')">
+          DEPARMENTS
+        </button>
+      </div>
+      <div class="STAFF">
+        <button class="tablinks" onclick="tabUpdate(event, 'staff')">
+          STAFF BIOGRAPHIES
+        </button>
+      </div>
+    </div>
+    <div>
+      <div id="app" class="tabcontent">idk1</div>
+      <div id="mis" class="tabcontent">idk2</div>
+      <div id="dep" class="tabcontent">idk3</div>
+      <div id="staff" class="tabcontent">
+        <div class="BOD">BOARD OF DIRECTORS</div>
+        <div class="BODline"></div>
+        <div class="HLine"></div>
+        <div class="XRAY">
+          <div class="name">S 403 XRAY</div>
+          <div class="title">Community Director</div>
+          <div class="ppf"> <img src="./files/Staff/xray.png"></div>
+          <div class="date">Since 01/08/24</div>
+          <div class="staffBios">“Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para.Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para.”</div>
+        </div>
+        <div class="line2"></div>
+        <div class="NERD">
+            <div class="name">the_nerd1</div>
+            <div class="title">Technology Director</div>
+            <div class="ppf"> <img src="./files/Staff/nerd.png"></div>
+            <div class="date">Since 01/08/24</div>
+            <div class="staffBios">“Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para.Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para. Hoc phantasma textus ad corpus para.”</div>
+          </div>
       </div>
     </div>
 
-    <div class="side"></div>
-  
-    <a href="./links/application/main.html"><button class="app button">Application</button></a>
-    <a href="./links/pbr/mission&values.html"><button class="mis button">Mission & Values</button></a>
-    <a href="./links/departments/main.html"><button class="dep button">Departments</button></a>
-    <a href="./links/staff/main.html"><button class="staff button">Staff Biographies</button></a>
-
-    <div class="line"></div>
-    <div class="line-two line"></div>
-    <div class="line-three line"></div>
-    <div class="line-four line"></div>
-    <div class="line-five line"></div>
+    <script>
+      document.getElementById("defaultOpen").click();
+    </script>
   </body>
 </html>
