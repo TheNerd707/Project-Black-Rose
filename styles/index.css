@@ -1,172 +1,154 @@
 body {
-  background-color: hsl(0, 0%, 70%);
-  max-width: 100%;
+  background-color: #b3b3b3;
   overflow-x: hidden;
+  max-width: 100%;
 }
-
-.side {
-  position: fixed;
-  width: 430px;
-  height: 102vh;
-  background-color: hsl(0, 0%, 10%);
-  color: hwb(0 60% 40%);
+.top {
+  width: 102vw;
+  background-color: black;
+  height: 10vw;
+  margin-left: -9px;
   margin-top: -9px;
-  right: 0;
-}
-
-.PBR2 {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  width: 70vw;
-}
-
-.line {
-  position: fixed;
-  width: 300px;
-  height: 2px;
-  background-color: hsl(0, 0%, 40%);
-  margin-top: 20vh;
-  right: 50px;
-}
-
-.line-two {
-  margin-top: 33vh;
-}
-
-.line-three {
-  margin-top: 46vh;
-}
-
-.line-four {
-  margin-top: 59vh;
-}
-
-.line-five {
-  margin-top: 72vh;
-}
-
-.slogan {
-  margin-top: 430px;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  font-size: 30px;
-  text-align: center;
-  font-style: italic;
-  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.button {
-  width: 430px;
-  position: absolute;
-  border: none;
-  background-color: hsl(0, 0%, 10%);
   color: white;
-  font-size: 25px;
-  font-weight: bolder;
-  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
-  right: 0px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.4vw;
+}
+.line {
+    position: absolute;
+    width: 80vw;
+    height: 2px;
+    margin-top: 2vw;
+    background-color: white;
+}
+.PBR {
+  margin-top: -3vw;
 }
 
-.app {
-  margin-top: 24vh;
+.TM {
+  position: absolute;
+  font-size: 1vw;
+  margin-top: -4.3vw;
+  margin-left: -4vw;
 }
 
-.mis {
-  margin-top: 38vh;
+.tabs {
+  color: white;
+  position: absolute;
+  display: flex;
+  width: 102vw;
+  height: 3vw;
+  margin-top: 6vw;
+  font-size: 1.7vw;
+  margin-left: 5vw;
+  border: none;
 }
 
-.dep {
-  margin-top: 51vh;
+.tabs :hover {
+  cursor: pointer;
+}
+.tablinks {
+  color: white;
+  font-size: 1.5vw;
+  background-color: black;
+  border: none;
+  background: none;
+  width: 20vw;
 }
 
+.tabs button {
+    height: 4vw;
+}
+.tabs button.active {
+  background-color: #b3b3b3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: black;
+}
+.tabcontent {
+  display: none;
+  margin-top: 12vw;
+  position: absolute;
+
+}
+.APPLICATION {
+    margin-left: 5.5vw;
+}
+.logo img {
+  width: 14.22vw;
+  height: 8vw;
+  margin-top: -4.5vw;
+  position: absolute;
+  margin-left: -92vw;
+}
+
+.HLine {
+  position: absolute;
+  margin-top: 4vw;
+  width: 2px;
+  height: 54vw;
+  background-color: black;
+  margin-left: 32vw;
+}
+
+.name {
+  font-size: 3vw;
+  margin-top: 2vw;
+  width: 30vw;
+  align-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 3vw;
+  width: 68vw;
+  margin-left: 32vw;
+  text-align: center;
+  margin-top: -4vw;
+  text-decoration: solid;
+}
+
+.staffBios {
+  text-align: center;
+  font-size: 2vw;
+  width: 52vw;
+  height: 25vw;
+  margin-left: 40vw;
+  margin-top: -23vw;
+}
+.ppf {
+  text-align: center;
+  width: 30vw;
+}
+.ppf img{
+  width: 20vw;
+  margin-top: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date {
+  font-size: 3vw;
+  width: 30vw;
+  align-content: center;
+  text-align: center;
+}
+
+.line2 {
+  margin: auto;
+  width: 95vw;
+  height: 2px;
+  background-color: black;
+}
+
+.BOD {
+  width: 100vw;
+  position: relative;
+  text-align: center;
+  font-size: 4vw;
+}
 .staff {
-  margin-top: 64vh;
-}
-
-/* Moble */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  .PBR2 {
-    position: fixed;
-    width: 99vw;
-    margin-left: -9px;
-    margin-top: -50px;
-  }
-
-  .side {
-    position: absolute;
-    width: 101vw;
-    margin-left: -8px;
-    margin-top: 550px;
-    height: 120vh;
-    font-size: 40px;
-    right: 0;
-  }
-
-  .line {
-    position: absolute;
-    margin-top: 790px;
-  }
-
-  .line-two {
-    margin-top: 890px;
-  }
-
-  .line-three {
-    margin-top: 990px;
-  }
-
-  .line-four {
-    margin-top: 1090px;
-  }
-
-  .line-five {
-    margin-top: 1190px;
-  }
-
-  .slogan {
-    position: fixed;
-    margin-top: 450px;
-    margin-left: 0px;
-    width: 100vw;
-    right: none;
-    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
-  }
-  .button{
-    width: 99vw;
-    right: none;
-    margin-right: 9px;
-  }
-  .app {
-    margin-top: 825px;
-  }
-  .mis {
-    margin-top: 925px;
-  }
-  .dep {
-    margin-top: 1025px;
-  }
-  .staff {
-    margin-top: 1125px;
-  }
-
-}
-
-/* Limmit orentation */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  body {
-    display: none;
-  }
+  position: absolute;
 }
